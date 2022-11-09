@@ -6,9 +6,13 @@ Author: 骆昊
 Date: 2018-02-27
 """
 import math
-
+'''
 radius = float(input('请输入圆的半径: '))
 perimeter = 2 * math.pi * radius
 area = math.pi * radius * radius
 print('周长: %.2f' % perimeter)
 print('面积: %.2f' % area)
+'''
+r=float(input("输入体积半径"))
+volume=4 / 3 *math.pi * r * r * r
+print("体积：%.2f" % volume)
