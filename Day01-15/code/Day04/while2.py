@@ -11,3 +11,11 @@ while num <= 100:
     sum += num
     num += 2
 print(sum)
+
+num=0
+while num <= 50:
+    num+=1
+    if num == 25:
+        break
+print(num)
+
